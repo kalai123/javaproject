@@ -1,0 +1,25 @@
+# javaproject
+<html>
+<body text="blue" bgcolor="black">
+<img src="gnhh.jpg" style="width:1350px;height:500px;">
+<center>
+<section id="loginBox">
+	
+        <form action="land.html">
+		<label for="username">
+			Username:
+			<input type="text" name="username" id="username" placeholder="enter the username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+		</label><br>
+                 <br>
+		<label for="password">
+			Password:
+			<input type="password" name="password" id="password" placeholder="minimum 8 characters" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+		</label>
+                <br>
+                 <br>
+		<button type="submit" class="btn-minimal">Sign in</button>
+               </center>
+	</form>
+       </section>
+</body>
+</html>
